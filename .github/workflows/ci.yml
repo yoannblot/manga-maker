@@ -7,7 +7,7 @@ on:
 
 jobs:
   tests:
-    name: Tests
+    name: Unit Tests
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -17,5 +17,5 @@ jobs:
         uses: ./.github/actions/php-setup
 
       - name: Run tests
-        run: ./vendor/bin/phpunit
+        run: ./vendor/bin/phpunit --testsuite "unit"
         shell: bash

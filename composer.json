@@ -10,7 +10,8 @@
   "autoload": {
     "psr-4": {
       "App\\": "app/",
-      "MangaMaker\\": "src/"
+      "MangaMaker\\": "src/",
+      "Tests\\": "tests/"
     }
   }
 }

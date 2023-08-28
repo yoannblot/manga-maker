@@ -2,10 +2,9 @@
 
 declare(strict_types=1);
 
-namespace MangaMaker\Infrastructure;
+namespace Tests\Unit\Infrastructure;
 
-namespace MangaMaker\Infrastructure;
-
+use MangaMaker\Infrastructure\StdoutLogger;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;

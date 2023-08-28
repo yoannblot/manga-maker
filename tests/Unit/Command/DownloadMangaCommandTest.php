@@ -2,8 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Command;
+namespace Tests\Unit\Command;
 
+use App\Command\DownloadMangaCommand;
 use MangaMaker\Infrastructure\StdoutLogger;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;

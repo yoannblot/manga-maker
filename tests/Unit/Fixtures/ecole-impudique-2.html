@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Manga news - preview Ecole impudique (l') 2</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta content="Manga news - preview Ecole impudique (l') 2" property="og:title">
+    <meta content="Preview Manga news - preview Ecole impudique (l') 2" name="description">
+    <meta content="Preview Manga news - preview Ecole impudique (l') 2" property="og:description">
+    <meta content="article" property="og:type">
+    <meta content="https://www.manga-news.com/public/manga_previews/ecole-impudique2/assets/flash/pages/page0001_s.png"
+          property="og:image">
+    <meta content="auto" property="og:determiner">
+    <meta content="initial-scale=0.5, user-scalable=no, maximum-scale=0.5, minimal-ui" name="viewport"/>
+
+
+    <link href="https://www.manga-news.com/public/manga_previews/ecole-impudique2/files/assets/common/publication-icon.ico?37cfc5da1431310b54a49c1b7addaa51"
+          rel="shortcut icon"/>
+
+    <script src="https://www.manga-news.com/public/manga_previews/ecole-impudique2/files/html/static/build.min.js"></script>
+
+
+    <script src="https://www.manga-news.com/public/manga_previews/ecole-impudique2/files/html/static/analytics.min.js"></script>
+    <script type="text/javascript">
+        (function (global) {
+            var startDate = new Date().getTime();
+            var domain = typeof window.location !== "undefined" ? window.location.hostname : '';
+            if (global.universalAnalytics) {
+                global.universalAnalytics.init([], ['2575586-1'], domain, 'Publisher-HTML5', startDate, '2.8.7', false);
+            }
+        })(this);
+    </script>
+
+    <script>
+        BASIC_URL = 'https://www.manga-news.com/public/manga_previews/ecole-impudique2/files/assets/basic-html/page-1.html';
+        BASIC_FIRST_PAGE = '1';
+
+        function renderBasic() {
+            function getXHR() {
+                if (window.XMLHttpRequest) {
+                    return new XMLHttpRequest();
+                }
+                try {
+                    return new ActiveXObject('MSXML2.XMLHTTP.6.0');
+                } catch (e) {
+                    try {
+                        // The fallback.
+                        return new ActiveXObject('MSXML2.XMLHTTP.3.0');
+                    } catch (e) {
+                        alert('This browser is not AJAX enabled.');
+                        return null;
+                    }
+                }
+            }
+
+            var ajax = function (options) {
+                options = options || {};
+
+                var type = options.type || 'GET';
+                var url = options.url;
+                var data = options.data;
+                var xhr = getXHR();
+                try {
+                    xhr.open(type, url, true);
+
+                    xhr.onreadystatechange = function () {
+                        var error = false;
+                        var content = xhr.responseText;
+
+                        // Parse the JSON before calling success.
+                        if (options.dataType === 'json') {
+                            try {
+                                content = JSON.parse(content);
+                            } catch (e) {
+                                error = true;
+                            }
+                        }
+
+                        if (!error && (xhr.status >= 200 && xhr.status < 300)) {
+                            // The last two arguments only apply to v0.9.2.
+                            if (options.success) options.success(content, xhr.statusText, xhr);
+                        } else {
+                            // This signature is inconsistent with v0.9.2, but is correct for 1.0.0.
+                            if (options.error) options.error(xhr);
+                        }
+                    };
+
+                    xhr.onerror = xhr.onabort = function () {
+                        if (options.error) options.error(xhr);
+                    };
+
+                    xhr.send(data);
+                } catch (error) {
+                    if (options.error) options.error(xhr);
+                }
+
+                return xhr;
+            };
+
+            function getHash() {
+                var match = window.location.href.match(/#(.*)$/);
+                return match ? match[1] : '';
+            }
+
+            var queryString = function () {
+                // This function is anonymous, is executed immediately and
+                // the return value is assigned to QueryString!
+                var query_string = {};
+                var query = window.location.search.substring(1);
+                if (query === "") return query_string;
+                var vars = query.split("&");
+                for (var i = 0; i < vars.length; i++) {
+                    if (vars[i] === "") continue;
+                    var pair = vars[i].split("=");
+                    // If first entry with this name
+                    if (typeof query_string[pair[0]] === "undefined") {
+                        query_string[pair[0]] = pair[1];
+                        // If second entry with this name
+                    } else if (typeof query_string[pair[0]] === "string") {
+                        var arr = [query_string[pair[0]], pair[1]];
+                        query_string[pair[0]] = arr;
+                        // If third or later entry with this name
+                    } else {
+                        query_string[pair[0]].push(pair[1]);
+                    }
+                }
+                return query_string;
+            }();
+
+
+            var hash = getHash();
+            var checkRegExp = /[^A-Za-z0-9\(\)\[\]@.,$€;`~! _-]/g;
+            var hash_split = hash.split("/");
+            var page = decodeURIComponent(queryString.p || queryString.page || hash_split[0] || window.BASIC_FIRST_PAGE);
+
+            if (BASIC_URL) {
+                var url = BASIC_URL;
+                if (page != BASIC_FIRST_PAGE) {
+                    url = BASIC_URL.replace("page-" + BASIC_FIRST_PAGE, "page-" + page);
+                }
+
+                ajax({
+                    type: 'OPTIONS',
+                    url: url,
+                    success: function (text, statusText, xhr) {
+                        window.location = url;
+                    },
+                    error: function (xhr) {
+                        window.location = BASIC_URL;
+                    }
+                });
+            }
+        }
+    </script>
+</head>
+<body>
+<script type="text/javascript">
+    if (!!window.addEventListener) {
+        window.addEventListener('load', main);
+    } else {
+        window.attachEvent('onload', main);
+    }
+
+    function main() {
+
+        var baseUrl = window.location.href.split('#')[0].split('index.html')[0];
+        PUBLICATION_NAME = "Manga news - preview Ecole impudique (l') 2";
+        var publicationConfig = {};
+
+        function PublisherAdapter(options) {
+            LocalHashAdapter.call(this, options);
+        }
+
+        PublisherAdapter.prototype = Object.create(LocalHashAdapter.prototype);
+        PublisherAdapter.constructor = PublisherAdapter;
+        PublisherAdapter.prototype.translatePath = function (url) {
+            url = LocalHashAdapter.prototype.translatePath.call(this, url);
+            return url.replace('.json', '.js');
+        }
+        publicationConfig.adapter = new PublisherAdapter({
+            firstPage: '1',
+            mappings: {
+                'skins/current/': 'https://www.manga-news.com/public/manga_previews/ecole-impudique2/files/assets/html/skin/',
+                'assets/common/search/searchtext.js': 'https://www.manga-news.com/public/manga_previews/ecole-impudique2/files/assets/mobile/search/searchtext.js',
+                'assets/mobile/search/searchtext.js': 'https://www.manga-news.com/public/manga_previews/ecole-impudique2/files/assets/mobile/search/searchtext.js',
+                'assets/common/embed/page.html': baseUrl + 'files/assets/flash/page.html',
+                'assets/common/sound/flip/': 'https://www.manga-news.com/public/manga_previews/ecole-impudique2/files/html/static/static/sound/',
+                'assets/common/pages/text/': 'https://www.manga-news.com/public/manga_previews/ecole-impudique2/files/assets/common/page-textlayers/',
+                'assets/common/pages/substrates/': 'https://www.manga-news.com/public/manga_previews/ecole-impudique2/files/assets/common/page-html5-substrates/',
+                'assets/flash/search/': 'https://www.manga-news.com/public/manga_previews/ecole-impudique2/files/assets/mobile/search/',
+                'static/html/': 'https://www.manga-news.com/public/manga_previews/ecole-impudique2/files/html/static/',
+                'static/mobile/': 'https://www.manga-news.com/public/manga_previews/ecole-impudique2/files/mobile/',
+                'assets/': 'https://www.manga-news.com/public/manga_previews/ecole-impudique2/files/assets/',
+                'locales/': 'https://www.manga-news.com/public/manga_previews/ecole-impudique2/files/assets/html/locale/'
+            }
+        });
+
+
+        if (window.UniversalAnalytics) {
+            publicationConfig.analytics = new UniversalAnalytics();
+        }
+
+
+        var nav = publicationConfig.navigator !== undefined ? publicationConfig.navigator : navigator;
+
+
+        var detector = new PublicationDetector(new UserAgentDetector(nav), ['html', 'mobile']);
+
+        var isRenderable = detector.isRenderable();
+
+        if (!isRenderable) {
+            renderBasic();
+        }
+
+        publicationConfig.callback = function () {
+            return detector.mainVersion();
+        };
+
+
+        publicationConfig.preloader = {
+            backgroundColor: "#F9F9FA",
+            titleColor: "#626263",
+            titleText: "Preview Manga news - preview Ecole impudique (l') 2",
+            logoLink: {
+                image: "https://www.manga-news.com/public/manga_previews/ecole-impudique2/files/assets/html/skins/current/images/favicon32.png",
+                url: "http://www.manga-news.com/"
+            }
+        };
+
+
+        window.publication = new Publication(publicationConfig);
+
+        window.target = 'book';
+        var informPositionChanged = function (bookState) {
+            if (window.publication && window.publication.app && window.publication.app && publication.app.pager && publication.app.pager.state) {
+                var pagerState = publication.app.pager.state;
+                publisherInterop.informPositionChanged(pagerState.leftPage, pagerState.rightPage, window.target);
+                window.target = 'book';
+            }
+        };
+        window.publication.on('turned', informPositionChanged);
+        window.publication.on('zoomed', informPositionChanged);
+        window.publication.on('unzoomed', informPositionChanged);
+        window.goToPage = function (id) {
+            if (window.publication && window.publication.app && window.publication.app && publication.app.pager) {
+                var pager = publication.app.pager;
+                window.target = 'External';
+                pager.goToPageById(id, window.target);
+            }
+        };
+    };
+</script>
+</body>
+</html>
