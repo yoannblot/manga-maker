@@ -1,0 +1,21 @@
+name: Tests
+
+on:
+  push:
+    branches-ignore:
+      - 'master'
+
+jobs:
+  tests:
+    name: Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: PHP Setup
+        uses: ./.github/actions/php-setup
+
+      - name: Run tests
+        run: ./vendor/bin/phpunit
+        shell: bash
